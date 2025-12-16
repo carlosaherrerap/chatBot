@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot WhatsApp – Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Font Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- html5-qrcode CDN -->
+  <script src="https://unpkg.com/html5-qrcode" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Panel de Chatbot WhatsApp</h1>
+  </header>
+  <main>
+    <section class="qr-section">
+      <h2>Escanear QR de WhatsApp</h2>
+      <div id="qr-reader" class="qr-reader"></div>
+      <p id="qr-result" class="qr-result">Escaneando…</p>
+    </section>
+    <section class="conv-section">
+      <h2>Conversaciones Recientes</h2>
+      <table class="conv-table">
+        <thead>
+          <tr>
+            <th>Dirección</th>
+            <th>Mensaje</th>
+            <th>Hora</th>
+          </tr>
+        </thead>
+        <tbody id="conv-body">
+          <!-- Filled by app.js -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Chatbot WhatsApp – Solo visualización</p>
+  </footer>
+</body>
+</html>

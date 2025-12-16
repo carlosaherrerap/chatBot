@@ -1,0 +1,22 @@
+[
+  {
+    "direction": "inbound",
+    "message": "Hola, ¿Cuál es mi deuda?",
+    "timestamp": 1734336000000
+  },
+  {
+    "direction": "outbound",
+    "message": "Su deuda es $150, con vencimiento 2025-12-31.",
+    "timestamp": 1734336060000
+  },
+  {
+    "direction": "inbound",
+    "message": "Quiero hablar con un asesor.",
+    "timestamp": 1734336120000
+  },
+  {
+    "direction": "outbound",
+    "message": "Se ha enviado su solicitud a un asesor humano.",
+    "timestamp": 1734336180000
+  }
+]
